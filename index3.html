@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="./assets/CSS/reset.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="assets/IMG/icon.png" rel="icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/CSS/home3.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <title>Desafio Edutech - TFS</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <!-- caixa dos patrocinadores -->
+      <div class="patrocinador_header">
+        <div class="patrocinador_box">
+          <img
+            class="patrocinador_logo-1"
+            src="./assets/IMG/lgCaelum.png"
+            alt="Logo Governo Paraná"
+          />
+          <img
+            class="patrocinador_logo-2"
+            src="./assets/IMG/lgPr.png"
+            alt="Logo Edutech"
+          />
+          <img
+            class="patrocinador_logo-3"
+            src="./assets/IMG/alura.jpg"
+            alt="Logo Alura"
+          />
+        </div>
+      </div>
+      <!-- Header Titulo -->
+      <div class="title_header">
+        <div class="title_header_box">
+          <img
+            class="logo_edt"
+            alt="Logo Edutech"
+            src="./assets/IMG/logo_edt.png"
+          />
+          <div class="title_box">
+            <h2 class="title-1">Programa Edutech</h2>
+            <h2 class="title-2">Educação que Transforma</h2>
+          </div>
+        </div>
+      </div>
+      <!-- Header NAV -->
+      <nav class="nav_header">
+        <div class="navbox">
+          <a id="botao" href="index.html">home</a>
+          <a id="botao" href="index2.html">sobre nós</a>
+          <a id="botao" href="index3.html">cadastro</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="topico">
+      <!-- Tópico da página - direcionamento -->
+      <div class="topico_ret"></div>
+      <p class="topico_descricao">cadastro</p>
+    </div>
+
+    <!-- Formulário -->
+    <main>
+      <form>
+        <label for="nomesobrenome">Nome:</label>
+        <input
+          type="text"
+          id="nomesobrenome"
+          class="input-padrao"
+          placeholder="Digite seu nome..."
+          required
+        />
+
+        <label for="CPF">CPF:</label>
+        <input
+          type="tel"
+          id="CPF"
+          class="input-padrao"
+          required
+          placeholder="XXX.XXX.XXX-XX"
+        />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          class="input-padrao"
+          required
+          placeholder="Digite seu email..."
+        />
+
+        <label for="telefone">Telefone</label>
+        <input
+          type="tel"
+          id="telefone"
+          class="input-padrao"
+          required
+          placeholder="(XX) XXXXX-XXXX"
+        />
+
+        <label for="mensagem">Diga-nos o que achou do projeto (opcional)</label>
+        <textarea
+          cols="70"
+          rows="10"
+          id="mensagem"
+          class="input-padrao"
+        ></textarea>
+
+        <input type="submit" value="Enviar" class="enviar" />
+      </form>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer id="footer">
+      <img
+        class="imgEdt-footer"
+        src="./assets/IMG/imgEdt.png"
+        alt="Imagem Edutech"
+      />
+      <p class="subtitle_footer">navegação</p>
+      <nav class="nav_footer">
+        <div class="navbox_footer">
+          <a id="botao" href="index.html">home</a>
+          <a id="botao" href="index2.html">sobre nós</a>
+          <a id="botao" href="index3.html">cadastro</a>
+        </div>
+      </nav>
+      <p class="subtitle_footer">apoio</p>
+      <nav class="nav_footer_patrocinador">
+        <div class="navbox_footer_patrocinador">
+          <img
+            class="patrocinador_footer-1"
+            src="./assets/IMG/lgPr.png"
+            alt="Logo Governo Do Paraná"
+          />
+          <img
+            class="patrocinador_footer-2"
+            src="./assets/IMG/alura.jpg"
+            alt="Logo Alura"
+          />
+          <img
+            class="patrocinador_footer-3"
+            src="./assets/IMG/lgCaelum.png"
+            alt="Logo Caelum"
+          />
+        </div>
+      </nav>
+
+      <p class="copyright">
+        © Copyright Programa Edutech - Governo do Paraná 2021
+      </p>
+    </footer>
+  </body>
+</html>
